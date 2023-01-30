@@ -20,3 +20,5 @@ const backpack = {
     this.strapLength.right = lengthRight;
   },
 };
+
+console.log("The backpack object: ", backpack) // shows it in the console without needing to call it. 
