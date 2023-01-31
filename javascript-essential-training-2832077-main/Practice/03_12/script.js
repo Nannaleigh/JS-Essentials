@@ -8,6 +8,8 @@
  */
 import Backpack from "./Backpack.js";
 
+import Animals from "./Animals.js";
+
 const everydayPack = new Backpack(
   "Everyday Backpack",
   30,
@@ -20,36 +22,6 @@ const everydayPack = new Backpack(
 console.log("The everydayPack object:", everydayPack);
 console.log("The pocketNum value:", everydayPack.pocketNum);
 
-class Animals {
-  constructor(
-    name,
-    species,
-    color,
-    collarOn,
-    furType,
-    fedBreakfast,
-    fedDinner
-  ) {
-    this.name = name;
-    this.species = species;
-    this.color = color;
-    this.collarOn = collarOn;
-    this.furType = furType;
-    this.fedMeal = {
-      breakfast: fedBreakfast,
-      dinner: fedDinner,
-    };
-  }
-
-  toggleCollar(status) {
-    this.collarOn = status;
-  }
-
-  updateMeal(fedBreakfast, fedDinner) {
-    this.fedMeal.breakfast = fedBreakfast;
-    this.fedMeal.dinner = fedDinner;
-  }
-}
 
 const cade = new Animals(
   "Butthead",
