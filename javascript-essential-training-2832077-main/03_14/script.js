@@ -1,6 +1,6 @@
 /**
  * Challenge: Create a new object type
- * 
+ *
  * - Create a new object type "Book" using a class or an object constructor function.
  * - Add at least 5 book objects.
  */
@@ -21,3 +21,17 @@ const everydayPack = new Backpack(
 console.log("The everydayPack object:", everydayPack);
 console.log("The pocketNum value:", everydayPack.pocketNum);
 console.log("Days since aquired:", everydayPack.backpackAge());
+
+import Book from "./Book.js";
+
+// title, author, ISBN, pubYear, pageNumber, currentPage, currentStatus
+
+const theGiver = new Book(
+  "The Giver",
+  "Lois Lowry",
+  95968938598505,
+  "1997",
+  198,
+  198,
+  "Finished"
+);

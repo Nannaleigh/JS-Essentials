@@ -27,6 +27,6 @@ class Animals {
     this.fedMeal.breakfast = fedBreakfast;
     this.fedMeal.dinner = fedDinner;
   }
-}
+} 
 
 export default Animals;
