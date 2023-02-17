@@ -35,3 +35,8 @@ const theGiver = new Book(
   198,
   "Finished"
 );
+
+const invisibleLife = new Book (
+  "The Invisible Life of Addie LaRue", 
+  
+)
